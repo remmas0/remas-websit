@@ -11,5 +11,5 @@ A simple personal webpage built with just `index.html`, styled with CSS and incl
 - 📧 Email: [remastayab@gmail.com](mailto:remastayab@gmail.com)
 - 📱 Phone: [0582049946](tel:0582049946)
 - 💼 LinkedIn: [Remas AlTayeb](https://www.linkedin.com/in/remasaltayeb)
-| ![Forward](index.html) | Moving Forward |
+
 ---
