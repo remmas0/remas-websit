@@ -2,7 +2,7 @@
 
 A simple personal webpage built with just `index.html`, styled with CSS and includes a flying hearts animation using JavaScript.
 
-## 🌐 Live Demo
+## 🌐 
 
 
 [Check it out here](index.html)
