@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remas Fahad Al Tayeb</title>
+    <style>
+        body {
+            background-color: #fff8f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        h1 {
+            color: #d17ea5;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #3b5998;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Flying hearts animation */
+        .heart {
+            position: absolute;
+            color: #ff69b4;
+            font-size: 24px;
+            animation: float 10s infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh) translateX(50px);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>REMAS FAHAD AL TAYEB</h1>
+
+    <p>📧 <a href="mailto:remastayab@gmail.com">remastayab@gmail.com</a></p>
+    <p>📱 <a href="tel:0582049946">0582049946</a></p>
+    <p>💼 <a href="https://www.linkedin.com/in/remasaltayeb" target="_blank">LinkedIn - Remas AlTayeb</a></p>
+
+    <!-- Floating hearts -->
+    <script>
+        // Generate multiple hearts
+        for (let i = 0; i < 30; i++) {
+            let heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '❤️';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (5 + Math.random() * 5) + 's';
+            heart.style.fontSize = (16 + Math.random() * 20) + 'px';
+            document.body.appendChild(heart);
+        }
+    </script>
+
+</body>
+</html>
