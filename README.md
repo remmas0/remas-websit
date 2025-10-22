@@ -4,8 +4,8 @@ A simple personal webpage built with just `index.html`, styled with CSS and incl
 
 ## 🌐 Live Demo
 
-Check it out here: [file:///C:/ISO/index.html)
 
+[Check it out here](index.html)
 ## 🔗 Contact
 
 - 📧 Email: [remastayab@gmail.com](mailto:remastayab@gmail.com)
